@@ -1,0 +1,124 @@
+body {
+    background-color: #000000;
+    color: #c9d1d9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.home-button {
+    background-color: #0f33ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.repositories {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+}
+.repo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.repo {
+    background-color: #161b22;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.repo a {
+    color: #0f33ff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.repo p {
+    margin: 0 0 10px 0;
+    color: #8b949e;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.color-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.green {
+    background-color: #39d353;
+}
+
+.red {
+    background-color: #ff5f56;
+}
+
+.pink {
+    background-color: #ff69b4;
+}
+
+.status {
+    font-size: 12px;
+    color: #8b949e;
+    align-self: flex-end;
+}
+
+.customize {
+    color: #0f33ff;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-top: 10px;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.trait{
+    color: #0f33ff;
+}
+
+.titre{
+    text-decoration: underline;
+}
+p {
+    margin: 0.5rem 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.home-button:hover{
+    border-top: 3px solid #0f33ff;
+    background-color: #34495e;
+}
